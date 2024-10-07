@@ -9,6 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('/classes', [ClassController::class, 'index'])->name('classes.index');
-
 Route::resource('students', StudentController::class);
 
